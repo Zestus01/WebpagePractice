@@ -100,7 +100,40 @@ nav a, nav span {
     display: inline-block;
     font-size: 2rem;
     height: 3rem;
-    line-height: 
+    line-height: 1.7;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+/* The main layout */
+
+main {
+    display: flex;
+}
+
+article, section{
+    flex: 4;
+}
+
+aside {
+    flex: 1;
+    margin-left: 10px;
+    padding: 1%;
+}
+
+aside a{
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+aside img{
+    max-width: 100%;
+}
+
+footer {
+    margin-top: 10px;
 }
 
 /* Editing the resized class for images */ 
